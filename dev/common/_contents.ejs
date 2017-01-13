@@ -3,14 +3,14 @@
   <div class="wrap">
     <h1><%= data.title %></h1>
 
-  //▼contentsをループで生成
+  //▼ contentsをループで生成
   <% for( var i = 0; i < data.contents.length; i++ ) { -%>
     <section id="<%= data.contents[i].id %>" class="content">
       <h2><%= data.contents[i].h2 %></h2>
       <div class="content-ttl">
         <ul class="tag">
 
-        //▼tagリストをループ生成
+        //▼ tagリストをループ生成
         <% for( var j = 0; j < data.contents[i].tag.length; j++ ) { -%>
         　　<li><%= data.contents[i].tag[j] %></li>
         <% } %>
