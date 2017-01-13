@@ -38,6 +38,4 @@ gulp.task('ejs', function() {
   };
 });
 
-gulp.task('default', function() {
-  console.log('hello');
-});
+gulp.task('default', ['ejs']);
