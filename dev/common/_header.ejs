@@ -1,0 +1,22 @@
+<%
+var data  = jsonD;
+var Class = '';
+%>
+<header id="header">
+  <nav class="wrap">
+    <ul id="navi">
+      <% ( data.id == "page000" ) ? Class = 'current' : Class = '' -%>
+      <li>
+        <a href="page000.html" class="<%= Class -%>" >menu000</a>
+      </li>
+      <% ( data.id == "page001" ) ? Class = 'current' : Class = '' -%>
+      <li>
+        <a href="page001.html" class="<%= Class -%>" >menu001</a>
+      </li>
+      <% ( data.id == "page002" ) ? Class = 'current' : Class = '' -%>
+      <li>
+        <a href="page002" class="<%= Class -%>" >menu002</a>
+      <li>
+    </ul>
+  </nav>
+</header>

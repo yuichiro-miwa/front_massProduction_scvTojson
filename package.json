@@ -1,0 +1,28 @@
+{
+  "name": "flont_massProduction_csvTojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuichiro-miwa/front_massProduction_scvTojson.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuichiro-miwa/front_massProduction_scvTojson/issues"
+  },
+  "homepage": "https://github.com/yuichiro-miwa/front_massProduction_scvTojson#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-ejs": "^2.3.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-util": "^3.0.8"
+  }
+}
