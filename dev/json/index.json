@@ -1,26 +1,42 @@
-[
-  {
-    "id": "page000",
-    "title": "タイトル",
-    "contents/0/id": "child000",
-    "contents/0/h2": "タイトルその1",
-    "contents/0/tag/0": "タグ1",
-    "contents/0/tag/1": "タグ2",
-    "contents/0/tag/2": "タグ3",
-    "contents/0/tag/3": "タグ4",
-    "contents/0/summary": "サマリーサマリーサマリーサマリーサマリーサマリー",
-    "contents/0/reference/text": "リファレンス",
-    "contents/0/reference/url": "http://qiita.com/",
-    "contents/0/exercises": "テキスト",
-    "contents/1/id": "child001",
-    "contents/1/h2": "タイトルその2",
-    "contents/1/tag/0": "タグ1",
-    "contents/1/tag/1": "タグ2",
-    "contents/1/tag/2": "タグ3",
-    "contents/1/tag/3": "タグ4",
-    "contents/1/summary": "サマリーサマリーサマリーサマリーサマリーサマリー",
-    "contents/1/reference/text": "リファレンス",
-    "contents/1/reference/url": "http://qiita.com/",
-    "contents/1/exercises": "テキスト"
-  }
-]
+{
+  "pages": [
+    {
+      "id": "page000",
+      "title": "タイトル",
+      "contents": [
+        {
+          "id": "child000",
+          "h2": "タイトルその1",
+          "tag": [
+            "タグ1",
+            "タグ2",
+            "タグ3",
+            "タグ4"
+          ],
+          "summary": "サマリーサマリーサマリーサマリーサマリーサマリー",
+          "reference": {
+            "text": "リファレンス",
+            "url" : "http://qiita.com/"
+          },
+          "exercises": "テキスト"
+        },
+        {
+          "id": "child001",
+          "h2": "タイトルその2",
+          "tag": [
+            "タグ1",
+            "タグ2",
+            "タグ3",
+            "タグ4"
+          ],
+          "summary": "サマリーサマリーサマリーサマリーサマリーサマリー",
+          "reference": {
+            "text": "リファレンス",
+            "url" : "http://qiita.com/"
+          },
+          "exercises": "テキスト"
+        }
+      ]
+    }
+  ]
+}
