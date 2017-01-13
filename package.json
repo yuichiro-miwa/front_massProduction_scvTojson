@@ -20,6 +20,7 @@
   "devDependencies": {
     "fs": "0.0.1-security",
     "gulp": "^3.9.1",
+    "gulp-convert": "^0.2.0",
     "gulp-ejs": "^2.3.0",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
