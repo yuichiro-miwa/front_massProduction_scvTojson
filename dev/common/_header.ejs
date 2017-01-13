@@ -5,6 +5,7 @@ var Class = '';
 <header id="header">
   <nav class="wrap">
     <ul id="navi">
+      <!-- ファイル名とjsonデータのidが同じ場合にcurrentクラスを付与 -->
       <% ( data.id == "page000" ) ? Class = 'current' : Class = '' -%>
       <li>
         <a href="page000.html" class="<%= Class -%>" >menu000</a>

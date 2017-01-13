@@ -1,16 +1,21 @@
 <% var data = jsonD; %>
 <section id="main">
   <div class="wrap">
+    <!-- jsonデータのタイトルをh1に代入 -->
     <h1><%= data.title %></h1>
 
-  //▼ contentsをループで生成
+  //▼ contentsをループで生成(for文の中でいい感じにhtmlを書いておく)
+  <!-- for文を使用してcontens要素をループさせて生成する -->
   <% for( var i = 0; i < data.contents.length; i++ ) { -%>
+    <!-- 対象となるcontentsのidを使用する -->
     <section id="<%= data.contents[i].id %>" class="content">
+      <!-- 対象となるcontentsのh2を使用する -->
       <h2><%= data.contents[i].h2 %></h2>
       <div class="content-ttl">
         <ul class="tag">
 
         //▼ tagリストをループ生成
+        <!-- 対象となるcontentsのtag部分の回数を取得して.lengthで回数を決定 -->
         <% for( var j = 0; j < data.contents[i].tag.length; j++ ) { -%>
         　　<li><%= data.contents[i].tag[j] %></li>
         <% } %>
